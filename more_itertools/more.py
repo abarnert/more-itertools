@@ -3,7 +3,7 @@ from itertools import izip_longest, ifilter
 from recipes import *
 
 __all__ = ['chunked', 'first', 'peekable', 'collate', 'consumer', 'ilen', 
-           'with_iter']
+           'with_iter', 'iterate']
 
 
 _marker = object()
